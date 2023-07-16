@@ -14,5 +14,5 @@ async function run (params) {
   console.log(file)
   return file
 }
-run('./a.txt')
+run('/Users/morehao/Documents/practice/js/js-practice/jsFeature/promise/a.txt')
 console.log('start')

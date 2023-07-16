@@ -10,7 +10,7 @@ const moduleObj = {
 };
 
 const unboundGetX = moduleObj.getX();
-console.log(unboundGetX); 
+console.log(unboundGetX); // 42
 
 const bindGetX = moduleObj.getX.apply(moduleObj, [1]);
-console.log(bindGetX);
+console.log(bindGetX); // 43
